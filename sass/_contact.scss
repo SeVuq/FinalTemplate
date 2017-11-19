@@ -1,0 +1,52 @@
+.contact{
+	min-height: 900px;
+	.adress{
+		padding-top: 10px;
+		.col-md-4{
+			display: block;
+			div:last-child{
+				padding-top: 20px;
+				padding-left: 10px;
+			}
+			i{
+				font-size: 30px;
+				color: #00B4A9;
+				float: left;
+				padding-right: 20px;
+			}
+			.fa-mobile{
+				font-size: 35px;
+				display: inline;
+			}
+			p{
+				line-height: 1.6;
+			}
+		}
+	}
+	h4{
+		line-height: 2;
+		margin-top: 40px;
+	}
+
+.videoContact{
+		display: none;
+	}
+}
+.mapPar{
+	margin-top: 50px;
+	margin-bottom: 25px;
+
+
+
+	p{
+		display: inline-block;
+		margin-right: 40px;
+		cursor: pointer;
+
+	}
+	.parActive{
+		color: #64a2d1;
+		border-bottom: 0.5px dashed #64a2d1;
+	}
+
+}
